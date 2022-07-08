@@ -2,6 +2,13 @@
 
 Pruebas de como aplicar permisos a nuestro proyecto de react.
 
+## Desarrollo
+```
+yarn install
+yarn dev
+```
+
+
 ## Aplicar el permiso
 
 ```

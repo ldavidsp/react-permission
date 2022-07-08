@@ -9,16 +9,16 @@ import {usePermissions} from "../../api/services/AuthServices";
  * @param props
  * @constructor
  */
-const CanYou = ({children, ...props}) => {
+const Can = ({children, ...props}) => {
   const {permission} = props;
   const permissions = usePermissions();
   const checkPermission = permissions.find(item => item === permission);
   return checkPermission ? children : <></>;
 }
 
-export default CanYou;
+export default Can;
 
-CanYou.propTypes = {
+Can.propTypes = {
   children: PropTypes.node.isRequired,
   permission: PropTypes.number.isRequired,
 }

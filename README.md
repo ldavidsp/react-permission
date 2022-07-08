@@ -12,7 +12,7 @@ yarn dev
 ## Aplicar el permiso
 
 ```
-<CanYou permission={36}>
+<Can permission={36}>
  // children
 </CanYou>
 
